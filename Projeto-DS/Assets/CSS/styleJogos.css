@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body  {
+    background: url("../various/capa/foto.png");
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* página capa inicial */
+.container-caps  {
+    margin: 2.5rem;
+    height: 92vh;
+    border: 10px  solid #ffffff;
+    border-radius: 10px;
+    background: #75a747;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+/* Menu */
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem 0 
+}
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+    padding: .5rem;
+    transition: background-color 0.3s, opacity 0.3s, color 0.3s;
+}
+
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    color: white;
+    border-radius: 10px;
+}
+
+/* sessão jogos */
+section {
+    text-align: center;
+}
+section p {
+    padding-top: 2.5rem;
+}
+
+/* cards */
+.card-game {
+    display: flex;
+    padding-top: 2.5rem;
+}
+
+/* cards */
+.card1 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+
+.card1 img {
+    margin-left: 30%;
+}
+
+.card2 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.card2 img {
+    margin-left: 30%;
+}
+
+.card3 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 0 2rem;
+    padding: 1rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.card3 img {
+    margin-left: 30%;
+}
+
+/* Footer */
+footer p {
+    text-align: center;
+    margin: .9rem 0;
+}
