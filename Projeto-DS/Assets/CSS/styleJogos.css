@@ -71,7 +71,7 @@ section p {
     border-radius: 10px;
     margin: 0 2rem;
     padding: 1rem;
-    letter-spacing: 1px;
+    letter-spacing: .1rem;
     text-align: justify;
 }
 
