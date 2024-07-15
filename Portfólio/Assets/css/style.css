@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap"); 
 
+/* Configuração geral */
 * { 
   box-sizing: border-box; 
   margin: 0; 
   padding: 0;
 } 
 
+/* Elemento global */
 :root {
   background: #3b5760; 
   color: #fff;
@@ -150,7 +152,7 @@ img {
   opacity: 1;
 }
 
-
+/* galeria de imagem */
 .container-galery {
   position: relative;
   display: none;

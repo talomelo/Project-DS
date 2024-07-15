@@ -59,13 +59,12 @@ section p {
     padding-top: 2.5rem;
 }
 
-/* cards */
+/* cards de jogos */
 .card-game {
     display: flex;
     padding-top: 2.5rem;
 }
 
-/* cards */
 .card1 {
     border: 1px solid #ccc;
     border-radius: 10px;
@@ -74,7 +73,6 @@ section p {
     letter-spacing: .1rem;
     text-align: justify;
 }
-
 
 .card1 img {
     margin-left: 30%;
